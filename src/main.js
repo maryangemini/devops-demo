@@ -3,7 +3,7 @@ import { createCameraController } from './camera.js';
 import { createFaceOverlay } from './face-detector.js';
 
 
-const VERSION = '3.0';
+const VERSION = '3.1 m';
 
 document.querySelector('#app').innerHTML = `
   <main>
