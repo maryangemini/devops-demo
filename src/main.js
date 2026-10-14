@@ -2,8 +2,8 @@ import './style.css';
 import { createCameraController } from './camera.js';
 import { createFaceOverlay } from './face-detector.js';
 
-// Показ деплою: під час доповіді зміни лише VERSION з 3.0 на 3.1.
-const VERSION = '3.0';
+
+const VERSION = '3.1';
 
 document.querySelector('#app').innerHTML = `
   <main>
